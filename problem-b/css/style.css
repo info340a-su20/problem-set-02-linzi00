@@ -1,0 +1,41 @@
+circle[cy="130"][r="100"] {
+  fill: #5f5f5f;
+}
+
+path:nth-of-type(1),
+path:nth-of-type(2) {
+  stroke: #5f5f5f;
+  stroke-width: 8px;
+}
+
+circle[cy="110"][r="50"] {
+  fill: white;
+}
+
+g.contained:nth-of-type(1) circle {
+  fill: #573d29;
+}
+
+g.contained:nth-of-type(2) rect,
+g.contained:nth-of-type(2) circle {
+  fill: #c0c0c0;
+  stroke: none;
+}
+
+#interactive {
+  fill: #c0c0c0;
+  stroke: #bd250d;
+  stroke-width: 4px;
+}
+
+#interactive:hover {
+  fill: #bd250d;
+}
+
+rect[width="150"][height="150"] {
+  opacity: 0;
+}
+
+path:nth-last-child(1) {
+  stroke: none;
+}
